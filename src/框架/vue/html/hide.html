@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <!-- 按钮 -->
+  <button @click.stop="ShowHidden = !ShowHidden">显示或隐藏</button>
+  <!-- 下拉列表 -->
+  <div @click="HiddenClick">
+    <div v-if="ShowHidden" ref="box">
+      <!-- 列表内容 -->
+      <p v-for="(item,index) in 5" :key="index" @click.stop="ConBtn(index)">内容{{index}}</p>
+    </div>
+  </div>
+</div>
+<script src="https://zhangshumiao.cn/cdn/vue/vue.min.js"></script>
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      ShowHidden: false,
+    },
+    mounted() {
+      document.addEventListener('click', this.HiddenClick);
+      // this.HiddenClick();
+    },
+    methods: {
+      // 点击页面事件 隐藏需要隐藏的区域
+      HiddenClick(e) {
+        console.log(this.$refs.box.contains(e.target));
+　　　　if(!this.$refs.box.contains(e.target)){
+          console.log(e);
+          console.log(this.$refs.box.contains(e.target));
+　　　　　this.ShowHidden = false;
+　　　　}
+        // this.ShowHidden = false;
+      },
+      // 点击列表内，选中内容，并隐藏
+      ConBtn(val) {
+        console.log('内容' + val)
+        // this.ShowHidden = false;
+        this.ShowHidden = true;
+      }
+    }
+  })
+</script>
+</body>
+</html>

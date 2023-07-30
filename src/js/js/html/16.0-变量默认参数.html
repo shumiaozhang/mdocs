@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var a = ` aa b`.trim();
+    var b = 2
+    var c = `${b}`;    
+    console.log(c);
+    console.log(typeof c);
+    var d = `3${c}`;
+    console.log(d);
+    // console.log(a);
+    function demo (l, w=2, h=3){
+      console.log(w);
+      var num = l * w * h;
+      console.log(num);
+    }
+    // demo(2);
+    // demo(2, 3);
+  </script>
+</body>
+</html>

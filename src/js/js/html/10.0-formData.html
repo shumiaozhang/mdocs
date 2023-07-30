@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var formData = new FormData();
+    formData.append('a', '2');
+    console.log(formData);
+    console.log(formData.get('a'));
+    formData.set('a', 3)
+    console.log(formData.get('a'));
+    formData.delete('a');
+    console.log(formData.get('a'));
+  </script>
+</body>
+</html>

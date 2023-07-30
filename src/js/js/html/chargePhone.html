@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>充话费</title>
+  <script src="https://zhangshumiao.cn/cdn/h5/rem.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.12/lib/index.css"/>
+  <style>
+    #app {
+      font-size: 0.3rem;
+      padding: .2rem;
+    }
+    label {
+      display: inline-block;
+    }
+    input {
+      background: none;
+      border: 1px solid #DCDFE6;
+      margin: 0.2rem 0;
+      border-radius: 4px;
+      padding: 4px;
+      padding-left: 0.1rem;
+      height: 0.5rem;
+    }
+    input:hover {
+      border-color: #409EFF;
+    }
+    .btnOut {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    #btn {
+      padding: 0.2rem 1.4rem;
+      background: #409EFF;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <form action="">
+      <label for="">您每月的话费：</label>
+      <input type="text" v-model="eternalBill" placeholder="请输入您每月的话费"></br>
+      <label for="">您剩余的话费：</label>
+      <input type="text" v-model="residueBill" placeholder="请输入您剩余的话费"></br>
+      <label for="">您现在充值的话费：</label>
+      <input type="text" v-model="rechargeBill" placeholder="请输入您现在充值的话费"></br>
+      <!-- <van-cell-group>
+        <van-field
+          readonly
+          clickable
+          :value="value"
+          @touchstart.native.stop="show = true"
+        />
+        <van-number-keyboard
+          v-model="value"
+          :show="show"
+          :maxlength="6"
+          @blur="show = false"
+        />
+      </van-cell-group> -->
+    </form>
+    <div class="content">
+      您目前剩余话费为：<span id="residueBillTotal"></span>
+      大约能使用<span>{{monthNum}}</span>个月，预计<span>{{dueDate}}</span>到期。
+    </div>
+    <div class="btnOut">
+      <button @click="btn" id="btn">查询</button>
+    </div>
+  </div>
+  <script src="https://zhangshumiao.cn/cdn/vue/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vant@2.12/lib/vant.min.js"></script>
+  <script>
+    new Vue({
+      el: "#app",
+      data: {
+        monthNum: 1,
+        dueDate: '2020-01-28',
+        eternalBill: '',
+        residueBill: '',
+        rechargeBill: '',
+        value: '',
+        show: false,
+      },
+      mounted() {},
+      methods: {
+        btn() {
+          // vant.Toast('提示');
+          vant.Notify('通知内容');
+          // alert(this.eternalBill);
+        }
+      }
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a href="mailto:sample@fly63.com?subject=test&cc=sample@hotmail.com&subject=主题&body=内容">send mail</a>
+  <button onclick="btn()">发送邮件</button>
+  <script>
+    function btn() {
+      location="mailto:sample@fly63.com?subject=test&cc=sample@hotmail.com&subject=主题&body=内容";
+    }  
+  </script>
+  <script>
+    'use strict'
+    // let a = 1;
+    function foo() {
+      // console.log(a);
+    }
+    function bar() {
+      var a = 2;
+      foo();
+    }
+    // a = 4;
+    // bar();
+
+    function sum(arr) {
+        let sum = arr.reduce((prev, item, index)=> {
+            return prev + item;
+        }, 0);
+        // console.log(sum);
+        return sum;
+    }
+    sum([1, 2, 3, 4])
+
+    function remove(arr, item) {
+        let arr1 = [];
+        arr.reduce((prev, it)=> {
+            if(it != item) {
+              return arr1.push(it);
+            }
+        }, [])
+        // console.log(arr1);
+        return arr1;
+    }
+    let arr = [1, 2, 3, 4, 2];
+    remove(arr, 2)
+    function removeWithoutCopy(arr, item) {
+        let arr1 = JSON.parse(JSON.stringify(arr))
+        console.log(arr1);
+        arr.map((it, index) => {
+            if (it == item) {
+              console.log(index);
+              arr1.splice(index, 1);
+            }
+        })
+        console.log(arr1);
+        console.log(arr);
+    }
+    // removeWithoutCopy([1, 2, 2, 3, 4, 2, 2], 2);
+
+    function removeWithoutCopy(arr, item) {
+    var index = arr.indexOf(item);
+        var count = 0;
+        for(var i=0; i < arr.length; i++) {
+            if(arr[i] == item)
+                count++;
+        }
+        arr.splice(arr.indexOf(item), count);
+        console.log(arr);
+        return arr;
+    }
+    // removeWithoutCopy([1, 2, 2, 3, 4, 2, 2], 2);
+
+    function truncate(arr) {
+      let newArray = arr.splice(arr.length -1, 1);
+        console.log(newArray);
+        console.log(arr);
+        newArray = arr;
+        console.log(newArray);
+        return newArray;
+    }
+    // truncate([1, 2, 3, 4]);
+    function insert(arr, item, index) {
+      let newArr = arr.slice();
+      newArr.splice(index, 0, item);
+      console.log(newArr);
+    }
+    // insert([1, 2, 3, 4], 'z', 2)
+
+    function duplicates(arr) {
+      var a=[];
+      for(var i=0;i<arr.length-1;i++){
+          for(var j=i+1;j<arr.length;j++){
+              if(arr[i]===arr[j]&&a.indexOf(arr[j])===-1){
+                  a.push(arr[j]);
+                  break;
+              }
+          }
+      }
+      return a;
+    }
+    // duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3]);
+    function square(arr) {
+      let newArr = [];
+      arr.reduce((prev, item)=> {
+          newArr.push(item*item);
+      }, [])
+      console.log(newArr);
+      return newArr;
+    }
+    // square([1, 2, 3, 4]);]
+    function findAllOccurrences(arr, target) {
+      let newArr = [];
+      newArr = arr.reduce((prve, it, index)=>{
+          if(it==target){
+            prve.push(index);
+          }
+          return prve
+      },[])
+      return newArr;
+    }
+    // findAllOccurrences(['a','b','c','d','e','f','a','b','c'], 'a');
+    function fizzBuzz(num) {
+      console.log(typeof num);
+      let NUM = '';
+      if ((num=='')||(typeof num) != 'number') {
+          NUM = false;
+      } else if ((num%3)===0 && (num%5)===0) {
+          NUM = 'fizzbuzz';
+      } else if((num%3)===0){
+          NUM = 'fizz';
+      } else if ((num%5)===0){
+          NUM = 'buzz';
+      }  else {
+          NUM = num;
+      }
+      console.log(NUM);
+      return NUM;
+    } 
+    // fizzBuzz(15)
+    function argsAsArray(fn, arr) {
+        return fn(arr[0], arr[1]);
+    }
+
+    function arr1 (greeting, name, punctuation) {
+        return greeting + ', ' + name + (punctuation || '!');
+    }
+
+    // argsAsArray(arr1, ['Hello', 'Ellie']);
+
+    let x = 1;
+    console.log(x);
+  </script>
+</body>
+</html>

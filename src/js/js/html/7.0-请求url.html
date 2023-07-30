@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+  <script>
+    function aj() {
+      $.ajax({
+        type: 'get',
+        url: '/am/v3/oauth2/cs/authorize?service=userService&response_type=code&redirect_uri=null&client_id=2015112716143758',
+        dataType: 'json',
+        success(res) {
+          console.log(res);
+        }
+      })
+    }
+    aj();
+    function downloadFile(){
+      var request = new XMLHttpRequest();
+      let fileUrl = "/am/v3/oauth2/cs/authorize?service=userService&response_type=code&redirect_uri=null&client_id=2015112716143758"; // 文件路径
+      request.open("GET", fileUrl );
+      request.dataType = 'json';
+      request.onload = function(res) {
+          console.log(res);
+      }
+      request.send();
+    }
+    downloadFile();
+  </script>
+</body>
+</html>

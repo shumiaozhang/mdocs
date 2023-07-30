@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+<!--  <script src="./rem.js"></script>-->
+</head>
+<style>
+html  {
+  font-size: 12px;
+}
+  .remStyle {
+    width: 2rem;
+    height: 2rem;
+    color: skyblue;
+  }
+</style>
+<body>
+<div id="app">
+<!--  <div class="remStyle">rem</div>-->
+  <input type="text" v-model="inputVal"> <btn/>
+  <button @click="phoneNum" :disabled="flag">{{ buttonVal }}</button>
+</div>
+<script src="https://zhangshumiao.cn/cdn/vue/vue.min.js"></script>
+<script>
+  const btn = {
+    template: `
+      <button @click="phoneNum" :disabled="flag">{{ buttonVal }}</button>
+    `,
+    data: {
+      num: 5,
+      buttonVal: '获取验证码',
+      flag: false
+    },
+    methods: {
+      phoneNum() {}
+    }
+  }
+
+
+  new Vue({
+    el: '#app',
+    // component: {
+    //   btn
+    // },
+    data: {
+      num: 5,
+      inputVal: '',
+      buttonVal: '获取验证码',
+      flag: false,
+      promiseFlag: true,
+    },
+    mounted() {
+      // this.promise();
+      this.setAwait();
+    },
+    methods: {
+      // promise
+      getVal(msg) {
+        const obj = {
+          a: 1,
+          b: 2
+        }
+        return new Promise((resolve, reject) => {
+          if (msg > 0) {
+            resolve(msg);
+          } else {
+            reject(msg);
+          }
+        })
+      },
+      promise() {
+        const arr = [2, 6, 3];
+        const promises = arr.map(item => {
+          return this.getVal(item);
+        })
+        Promise.all(promises).then((result) => {
+          console.log(result);
+        }, (err) => {
+          console.log(err);
+        })
+
+        const a = Promise.resolve(1+1);
+        a.then((res) => {
+          console.log(res);
+        })
+
+        Promise.prototype.done = function (onFulfilled, onRejected) {
+          this.then(onFulfilled, onRejected)
+            .catch(function (reason) {
+              // 抛出一个全局错误
+              setTimeout(() => { throw reason }, 0);
+            });
+        };
+
+        // let promise = new Promise((resolve, reject) => {
+        //   console.log('Promise');
+        //   resolve();
+        // });
+        //
+        // promise.then(function() {
+        //   console.log('Resolved.');
+        // });
+        //
+        // console.log('Hi!');
+
+        // function timeout(ms) {
+        //   return new Promise((resolve, reject) => {
+        //     setTimeout(reject, ms, 'done');
+        //   });
+        // }
+        //
+        // timeout(2000).then((value) => {
+        //   console.log(value);
+        // }, (val) => {
+        //   console.log(val)
+        // });
+      },
+      // await async
+      awaitDemo() {
+        // let a = '';
+        // return new Promise(resolve => {
+        //   setTimeout(() => {
+        //     a = 1;
+        //     resolve(a);
+        //   }, 2000);
+        // }
+        return setTimeout(() => {
+          let a = 'a';
+          return a;
+        }, 2000)
+      },
+      // async setAwait() {
+      //   const res = await this.awaitDemo();
+      //   console.log(res);
+      //   console.log('执行完awaitDemo函数后执行' + res);
+      // },
+      async setAwait() {
+        console.log(this.awaitDemo());
+        const res = await this.awaitDemo();
+        console.log(res);
+        console.log('执行完awaitDemo函数后执行' + res);
+      },
+      // 验证码
+      phoneNum() {
+        /*
+        * 思路
+        * 1. 判断input是否有值
+        * 2.
+        **/
+        if (!this.inputVal) {
+          alert('input不能为空')
+          return
+        }
+        let setInter = null;
+        if (!this.flag) {
+          this.timer();
+          // setInter = setInterval(() => {
+          //   if (this.num > 0) {
+          //     this.num--;
+          //     this.buttonVal = `重新获取(${this.num})`;
+          //     this.flag = true;
+          //   } else {
+          //     clearInterval(setInter);
+          //     this.buttonVal = '获取验证码';
+          //     this.flag = false;
+          //     this.num = 5;
+          //   }
+          // }, 1000)
+        }
+      },
+      timer() {
+        if (this.num > 0) {
+          this.flag = true;
+          setTimeout(this.timer, 1000)
+          this.buttonVal = `重新获取(${this.num})`;
+        } else {
+          this.flag = false;
+          this.buttonVal = '获取验证码';
+        }
+      }
+    }
+  })
+</script>
+</body>
+</html>
+

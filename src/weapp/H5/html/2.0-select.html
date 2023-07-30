@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <select name="" id="province">
+    <option value="请选择">请选择省/市</option>
+    <option value="1">北京</option>
+    <option value="2">河北</option>
+    <option value="3">南京</option>
+    <option value="4">上海</option>
+    <option value="5">杭州</option>
+  </select>
+  <button onclick="btn()">获取select选中的值</button>
+  <script src="https://zhangshumiao.cn/cdn/jquery/jquery-1.10.0.js"></script>
+  <script>
+    function btn() {
+      const val = $("#province option:selected").val();
+      const text = $("#province option:selected").text();
+      console.log(val);
+      console.log(text);
+      console.log($("#province").find("option:checked").text());
+    }
+  </script>
+</body>
+</html>

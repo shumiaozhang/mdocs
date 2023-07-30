@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>nextTick</title>
+</head>
+<body>
+<div id="app">
+  <p ref="count">{{count}}</p>
+</div>
+<script src="https://zhangshumiao.cn/cdn/vue/vue.min.js"></script>
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      count: 1,
+    },
+    mounted() {
+      this.add();
+    },
+    methods: {
+      add() {
+        const beforeCount = this.$refs.count.innerText;
+        console.log(beforeCount);
+        this.count += 1;
+        console.log(this.count);
+        console.log(this.$refs.count.innerText);
+        this.$nextTick(() => {
+          console.log(this.$refs.count.innerText);
+        })
+      }
+    }
+  })
+</script>
+</body>
+</html>

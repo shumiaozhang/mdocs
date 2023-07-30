@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let url = '';
+  const baseUrl = 'https://www.zhangshumiao.cn';
+  // 拼接成: https://www.zhangshumiao.cn?a=1&b=2&c=3 这种形式
+  const obj = {
+    a: 1,
+    b: 2,
+    c: 3
+  }
+  function pinUrl(parm, url, baseUrl) {
+    let index = 0;
+    for(let item in parm) {
+      ++ index;
+      if (index == 1) {
+        url += '?' + item + '=' + parm[item];
+      } else {
+        url += '&' + item + '=' + parm[item];
+      }
+    }
+    url = baseUrl + url;
+    // console.log(url); // https://www.zhangshumiao.cn?a=1&b=2&c=3
+    return url;
+  }
+  pinUrl(obj, url, baseUrl);
+</script>
+<script>
+  const urlAll = 'https://www.zhangshumiao.cn?a=1&b=2&c=3';
+</script>
+</body>
+</html>

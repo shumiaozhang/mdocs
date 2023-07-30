@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="file" name="localResizeIMG" multiple accept="image/*" id="localResizeIMG">
+  <img src="" alt="" id="img">
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js"></script>
+  <script src="./localResizeIMG.js"></script>
+  <script src="./mobileBUGFix.mini.js"></script>
+  <script>
+    $("#localResizeIMG").localResizeIMG({
+      width: 400,
+      quality: 1,
+      success: function(res) {
+        console.log(res);
+        $("#img").attr('src', res.base64);
+      }
+    })
+  </script>
+</body>
+</html>

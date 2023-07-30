@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    getUserAgent = navigator.userAgent;
+    isAndroid = getUserAgent.indexOf('Android') > -1 || getUserAgent.indexOf('Adr') > -1; //android终端
+    isiOS = !!getUserAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    console.log(navigator, getUserAgent);
+  </script>
+</body>
+</html>

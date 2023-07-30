@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="div1" id="divId">获取元素</div>
+  <div class="setAttribute" id="setAttributeId" data-a1="22">设置属性</div>
+  <script>
+    // const divId = document.getElementById('divId');
+    // console.log(divId);
+    // const div1 = document.getElementsByClassName('div1');
+    // console.log(div1);
+    // console.log(div1[0]);
+    // const divName = document.getElementsByName('div12');
+    // console.log(divName);
+    // const div2 = document.getElementsByTagName('div');
+    // console.log(div2);
+    // const div4 = document.querySelectorAll('div12');
+    // console.log(div4);
+
+    // 设置属性
+    // var element = document.getElementsByClassName('setAttribute')[0];
+    // var attr = document.createAttribute("align");
+    // attr.value = 1;
+    // element.setAttributeNode(attr)
+    // console.log(attr);
+    // console.log(element);
+
+    // element.setAttribute('a', '属性值');
+    // var ab = element.getAttribute('a');
+    // element.removeAttribute('a');
+    // console.log(ab);
+
+    var element1 = document.querySelector('#setAttributeId');
+    element1.dataset.a = 1;
+    var a1 = element1.dataset.a;
+    console.log(a1);
+    var a2 = element1.dataset.b;
+    console.log(a2);
+    var a3 = element1.dataset.a1;
+    console.log(a3);
+  </script>
+</body>
+</html>

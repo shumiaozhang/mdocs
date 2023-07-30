@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      height: 2000px;
+    }
+    .btn{
+      margin-top: 200px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="btn()" class="btn">按钮</button>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script>
+    function btn() {
+      $(document).scrollTop(0);
+      console.log(1)
+      console.log($(document).scrollTop());
+    }
+  </script>
+</body>
+</html>

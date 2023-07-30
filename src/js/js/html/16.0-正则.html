@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const productionGzipExtensions = ['js', 'css'];
+    const reg1 = `\\.(${productionGzipExtensions.join('|')})$`;
+    const reg =  '\\.(' + productionGzipExtensions.join('|') + ')$';
+    console.log(reg1);
+    console.log(reg);
+  </script>
+</body>
+</html>
