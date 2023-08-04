@@ -8,14 +8,14 @@ const nav = [
             { text: 'js高程', link: '/js/js高程/' },
         ]
     },
-    {
-        text: '框架',
-        items: [
-            { text: 'vue3', link: '/框架/vue3/' },
-            { text: 'vue', link: '/框架/vue/' },
-            { text: 'react', link: '/框架/react/' },
-        ]
-    },
+    // {
+    //     text: '框架',
+    //     items: [
+    //         { text: 'vue3', link: '/框架/vue3/' },
+    //         { text: 'vue', link: '/框架/vue/' },
+    //         { text: 'react', link: '/框架/react/' },
+    //     ]
+    // },
     // {
     //     text: 'java',
     //     items: [

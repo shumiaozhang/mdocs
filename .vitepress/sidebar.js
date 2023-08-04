@@ -57,22 +57,22 @@ const sidebar = {
             ]
         }
     ],
-    '/框架/vue3/': [
-        {
-            text: 'Vue3',
-            items: [
-                { text: 'API', link: '/框架/vue3/index' },
-                { text: 'API下篇', link: '/框架/vue3/01-下篇' },
-                { text: 'setup', link: '/框架/vue3/0201-setup' },
-                { text: 'ref', link: '/框架/vue3/0202-ref' },
-                { text: 'computed', link: '/框架/vue3/0203-computed' },
-                { text: 'provideAndInject', link: '/框架/vue3/qita-provideAndInject' },
-                { text: 'Vue基本原理', link: '/框架/vue3/qita-Vue基本原理' },
-                { text: '自定义指令', link: '/框架/vue3/qita-自定义指令(directive)' },
-                { text: '选项式与组合式', link: '/框架/vue3/qita-选项式与组合式' },
-            ]
-        }
-    ],
+    // '/框架/vue3/': [
+    //     {
+    //         text: 'Vue3',
+    //         items: [
+    //             { text: 'API', link: '/框架/vue3/index' },
+    //             { text: 'API下篇', link: '/框架/vue3/01-下篇' },
+    //             { text: 'setup', link: '/框架/vue3/0201-setup' },
+    //             { text: 'ref', link: '/框架/vue3/0202-ref' },
+    //             { text: 'computed', link: '/框架/vue3/0203-computed' },
+    //             { text: 'provideAndInject', link: '/框架/vue3/qita-provideAndInject' },
+    //             { text: 'Vue基本原理', link: '/框架/vue3/qita-Vue基本原理' },
+    //             { text: '自定义指令', link: '/框架/vue3/qita-自定义指令(directive)' },
+    //             { text: '选项式与组合式', link: '/框架/vue3/qita-选项式与组合式' },
+    //         ]
+    //     }
+    // ],
 }
 
 export {
