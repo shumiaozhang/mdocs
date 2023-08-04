@@ -16,27 +16,27 @@ const nav = [
             { text: 'react', link: '/框架/react/' },
         ]
     },
-    {
-        text: 'java',
-        items: [
-            { text: 'java', link: '/java/java/' },
-            { text: '接口', link: '/java/interface/' },
-        ]
-    },
-    {
-        text: 'html',
-        items: [
-            { text: 'css', link: '/html/css/' },
-        ]
-    },
-    {
-        text: 'weapp',
-        items: [
-            { text: 'h5', link: '/weapp/H5/' },
-            { text: 'Taro3', link: '/weapp/Taro3/' },
-            { text: '小程序', link: '/weapp/小程序/' },
-        ]
-    },
+    // {
+    //     text: 'java',
+    //     items: [
+    //         { text: 'java', link: '/java/java/' },
+    //         { text: '接口', link: '/java/interface/' },
+    //     ]
+    // },
+    // {
+    //     text: 'html',
+    //     items: [
+    //         { text: 'css', link: '/html/css/' },
+    //     ]
+    // },
+    // {
+    //     text: 'weapp',
+    //     items: [
+    //         { text: 'h5', link: '/weapp/H5/' },
+    //         { text: 'Taro3', link: '/weapp/Taro3/' },
+    //         { text: '小程序', link: '/weapp/小程序/' },
+    //     ]
+    // },
 ];
 
 export {
