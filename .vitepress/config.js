@@ -10,6 +10,7 @@ export default {
     lastUpdated: true,
     cleanUrls: true,
     lang: 'zh',
+    ignoreDeadLinks: true,
     themeConfig: {
         nav,
         sidebar,
