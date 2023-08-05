@@ -4,7 +4,7 @@ git commit -m "auto update blog"
 git push origin master
 
 call yarn docs:build
-cd .vitepress/dist
+cd docs/.vitepress/dist
 
 git init
 git add -A

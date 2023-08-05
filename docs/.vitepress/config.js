@@ -6,7 +6,7 @@ export default {
     // site-level options
     title: 'Sapling',
     description: 'Just playing around.',
-    srcDir: 'src',
+    // srcDir: 'src',
     lastUpdated: true,
     cleanUrls: true,
     lang: 'zh',

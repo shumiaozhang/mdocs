@@ -271,7 +271,7 @@ var out = document.querySelector('.out');
 var node = out.childNodes;
 console.log(node);
 ```
-![childNode](./images/childNode.png)
+![childNode](images/childNode.png)
 
 - children - 获取所有元素子节点(只包括子代的元素)
 
@@ -280,7 +280,7 @@ var out = document.querySelector('.out');
 var node = out.children;
 console.log(node);
 ```
-![children](./images/children.png)
+![children](images/children.png)
 
 firstChild 获取第一个字点
 

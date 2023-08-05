@@ -8,7 +8,7 @@
  let str = 'abcdef';
  console.log(str.length);
 ```
-![stringLength](./images/stringLength.png)
+![stringLength](images/stringLength.png)
 #### 2. slice()
 
 > 截取指定位置的字符串
@@ -31,7 +31,7 @@
  let str3 = str.slice(-3, -1);
  console.log(str3);
 ```
-![stringSlice](./images/stringSlice.png)
+![stringSlice](images/stringSlice.png)
 #### 3. substr
 > 参数1: 开始截取字符串的下标
 >
@@ -51,7 +51,7 @@
  let str3 = str.substr(-3, 2);
  console.log(str3);
 ```
-![stringSubstr](./images/stringSubstr.png)
+![stringSubstr](images/stringSubstr.png)
 #### 4. substring
 
 > 参数1：要截取字符的开始下标
@@ -70,7 +70,7 @@
  let str2 = str.substring(2);
  console.log(str2)
 ```
-![stringSubstring](./images/stringSubstring.png)
+![stringSubstring](images/stringSubstring.png)
 #### 5. split
 
 > 将字符串按指定字符，把一个字符串分割成数组
@@ -94,7 +94,7 @@
  let str3 = str.split('');
  console.log(str3);
 ```
-![stringSplit](./images/stringSplit.png)
+![stringSplit](images/stringSplit.png)
 #### 6. indexOf()
 > 检测指定字符首次出现的位置下标
 >
@@ -116,7 +116,7 @@
  let str4 = str.indexOf('c');
  console.log(str4);
 ```
-![stringIndexOf](./images/stringIndexOf.png)
+![stringIndexOf](images/stringIndexOf.png)
 #### 7. lastIndexOf()
 > 检测一个字符串中是否存在传入的字符，从该字符串的末尾查询
 > 参数1：传入的指定字符
@@ -128,7 +128,7 @@ console.log(str.lastIndexOf('d'));
 console.log(str.lastIndexOf('d', 1));
 console.log(str.lastIndexOf('d', 3)); // 这里也就是从字符串(abdc)中查询字符(d)是否存在 
 ```
-![stringlastIndexOf](./images/stringlastIndexOf.png)
+![stringlastIndexOf](images/stringlastIndexOf.png)
 #### 8. replace()
 > 将指定的字符替换成别的字符,只替换第一次出现的
 >
@@ -148,7 +148,7 @@ console.log(str.lastIndexOf('d', 3)); // 这里也就是从字符串(abdc)中查
  let str3 = str2.replace(/\d/g, 'z');
  console.log(str3)
 ```
-![stringReplace](./images/stringReplace.png)
+![stringReplace](images/stringReplace.png)
 #### 9. charAt()
 
 > 根据下标，找到该下标对应的字符
@@ -167,7 +167,7 @@ console.log(str.lastIndexOf('d', 3)); // 这里也就是从字符串(abdc)中查
  let str2 = str.charAt(7);
  console.log(str2);
 ```
-![stringcharAt](./images/stringcharAt.png)
+![stringcharAt](images/stringcharAt.png)
 #### 10. toLowerCase()
 
 > toLowerCase 将字符串转为小写
@@ -180,7 +180,7 @@ console.log(str.lastIndexOf('d', 3)); // 这里也就是从字符串(abdc)中查
  console.log(str);
  console.log(str1);
 ```
-![stringToLowerCase](./images/stringToLowerCase.png)
+![stringToLowerCase](images/stringToLowerCase.png)
 #### 11. toUpperCase()
 
 将小写字符串转化为大写
@@ -191,7 +191,7 @@ console.log(str.lastIndexOf('d', 3)); // 这里也就是从字符串(abdc)中查
  console.log(str);
  console.log(str1);
 ```
-![stringToUpperCase](./images/stringToUpperCase.png)
+![stringToUpperCase](images/stringToUpperCase.png)
 ES6 新增
 
 #### 12. for of 字符串遍历 
@@ -200,7 +200,7 @@ ES6 新增
     console.log(str);
  }
 ```
-![stringForOf](./images/stringForOf.png)
+![stringForOf](images/stringForOf.png)
 
 #### 13. includes(), startsWith(), endsWith()
 
@@ -229,7 +229,7 @@ ES6 新增
   console.log(str.endsWith('d', 3));
   console.log(str.endsWith('c', 3));
 ```
-![stringIncludes](./images/stringIncludes.png)
+![stringIncludes](images/stringIncludes.png)
 #### 14. repeat()
 
 > 将原字符串重复n次
@@ -242,7 +242,7 @@ ES6 新增
  console.log(str.repeat(2));
  console.log(str.repeat(3.6));
 ```
-![stringRepeat](./images/stringRepeat.png)
+![stringRepeat](images/stringRepeat.png)
 #### 15. padStart(), padEnd()
 
 > padStart()  头部补全
@@ -275,7 +275,7 @@ ES6 新增
  console.log('12'.padStart(10, 'YYYY-MM-DD'));
 ```
 
-![stringPad](./images/stringPad.png)
+![stringPad](images/stringPad.png)
 
 #### 16. Object.is()比较两个值是否相等
 
