@@ -1,3 +1,4 @@
+git pull
 git add .
 git commit -m "auto update blog"
 git push origin master
