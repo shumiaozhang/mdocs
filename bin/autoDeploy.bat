@@ -13,7 +13,7 @@ git add -A
 git commit -m "auto construct blog"
 
 
-git config --global http.sslVerify "false"
+git config --global http.sslVerify false
 
 
 git push -f https://github.com/shumiaozhang/mdocs.git master:gh-pages
