@@ -105,12 +105,12 @@ const demo = `这是es6中的${h}`;
 ```js
 var a = ` aa b`; // 有空格
 ```
-![有空格](./images/template1.png)
+![有空格](images/template1.png)
 
 ```js
 var a = `aa b`.trim(); // 没有空格
 ```
-![没有空格](./images/template2.png)
+![没有空格](images/template2.png)
 
 3) 大括号内容可以放任意JavaScript表达式。
 

@@ -11,7 +11,7 @@
  let arr = ['a', 'b', 'c', 'd'];
  console.log(arr.length);
 ```
-![ArrayLength](./images/ArrayLength.png)
+![ArrayLength](images/ArrayLength.png)
 #### 2. join()
 
 > 以指定的字符将数组连接起来，变成字符串
@@ -26,7 +26,7 @@
  console.log(arr.join());
  console.log(arr.join(''));
 ```
-![ArrayJoin](./images/ArrayJoin.png)
+![ArrayJoin](images/ArrayJoin.png)
 #### 3. slice()
 
 > 按传入的下标截取数组
@@ -47,7 +47,7 @@
  console.log(arr.slice(-3));
  console.log(arr.slice(-3, -1));
 ```
-![ArraySlice](./images/ArraySlice.png)
+![ArraySlice](images/ArraySlice.png)
 #### 4. splice() 删除或添加数组
 
 > 参数1：开始删除的位置即下标
@@ -68,7 +68,7 @@
  console.log(arr1.splice(2, 2, 'xx', 'aa'));
  console.log(arr1);
 ```
-![ArraySplice](./images/ArraySplice.png)
+![ArraySplice](images/ArraySplice.png)
 #### 5. pop()和push()
 
 > pop() 移除数组的最后一项
@@ -89,7 +89,7 @@ console.log(arr1);
 console.log(arr1.push('z'));
 console.log(arr1);
 ```
-![ArrayPopPush](./images/ArrayPopPush.png)
+![ArrayPopPush](images/ArrayPopPush.png)
 #### 6. shift()和unshift()
 
 > shift()  删除数组中的第一项
@@ -110,7 +110,7 @@ console.log(arr1);
  console.log(arr1.unshift('x', 'z'));
  console.log(arr1);
 ```
-![ArrayShift](./images/ArrayShift.png)
+![ArrayShift](images/ArrayShift.png)
 #### 7.  sort()
 
 > 排序从小到大
@@ -123,7 +123,7 @@ console.log(arr1);
  console.log(arr.sort());
  console.log(arr);
 ```
-![ArraySort](./images/ArraySort.png)
+![ArraySort](images/ArraySort.png)
 #### 8. reverse()
 > 数组反转
 > 
@@ -135,7 +135,7 @@ console.log(arr1);
  console.log(arr.reverse());
  console.log(arr);
 ```
-![ArrayReverse](./images/ArrayReverse.png)
+![ArrayReverse](images/ArrayReverse.png)
 #### 9. concat()
 > 两个数组连接
 >
@@ -148,7 +148,7 @@ console.log(arr1);
  console.log(arr);
  console.log(arr1);
 ```
-![ArrayConcat](./images/ArrayConcat.png)
+![ArrayConcat](images/ArrayConcat.png)
 #### 10. indexOf()和lastIndexOf()
 
 > 查找一个数组(从首位开始查询)中是否存在某个值，若存在返回当前的下标(只能匹配第一次出现)，否则返回-1
@@ -175,7 +175,7 @@ console.log(arr1);
  console.log(arr1.lastIndexOf('f'));
  console.log(arr1.lastIndexOf('d', 3)); // 这里就是从数组['a', 'b', 'c', 'd'] 查询是否有'd'
 ```
-![ArrayIndexOf](./images/ArrayIndexOf.png)
+![ArrayIndexOf](images/ArrayIndexOf.png)
 #### 11. every()
 
 >  检测数组的每一项是否都符合条件，符合返回true，若有一项不符合则停止检测返回false
@@ -192,7 +192,7 @@ console.log(arr1);
  })
  console.log(arr1);
 ```
-![ArrayEvery](./images/ArrayEvery.png)
+![ArrayEvery](images/ArrayEvery.png)
 #### 12. some()
 
 > 检测数组中是否存在符合指定的条件，若有符合条件的则停止检测返回true，否则false
@@ -209,7 +209,7 @@ let arr2 = arr.some((x, y, z) => {
  })
  console.log(arr2);
 ```
-![ArraySome](./images/ArraySome.png)
+![ArraySome](images/ArraySome.png)
 #### 13. filter()
 
 > 过滤
@@ -227,7 +227,7 @@ let arr1 = arr.filter((x, y, z) => {
 })
 console.log(arr1);
 ```
-![ArrayFilter](./images/ArrayFilter.png)
+![ArrayFilter](images/ArrayFilter.png)
 #### 14. map()
 
 > 映射
@@ -243,7 +243,7 @@ console.log(arr1);
  })
  console.log(arr1);
 ```
-![ArrayMap](./images/ArrayMap.png)
+![ArrayMap](images/ArrayMap.png)
 ES6 新增
 
 #### 15. includes()
@@ -269,7 +269,7 @@ ES6 新增
  console.log(arr.includes('e', -2)); // 这里其实是从['d', 'e']中查询值'e'是否存在
  console.log(arr.includes('e', 10)); 
 ```
-![ArrayIncludes](./images/ArrayIncludes.png)
+![ArrayIncludes](images/ArrayIncludes.png)
 #### 16. Array.of() 
 > 将一组值转为数组
 >
@@ -284,7 +284,7 @@ ES6 新增
  console.log(Array.of(1, [1, 'a'], 3, 'ab'));
  console.log(Array.of(1, 2, 3, 4, 5));
 ```
-![ArrayOf](./images/ArrayOf.png)
+![ArrayOf](images/ArrayOf.png)
 #### 17. fill()
 
 > 使用定值去填充一个数组，数组中的元素会被全部抹除
@@ -297,7 +297,7 @@ ES6 新增
  let arr1 = ['a', 'b', 'c', 'd', 'e'];
  console.log(arr1.fill(2, 2, 4));
 ```
-![ArrayFill](./images/ArrayFill.png)
+![ArrayFill](images/ArrayFill.png)
 #### 18. copyWithin()
 > 将数组中指定的成员项，复制到其他位置(会覆盖原来的成员)，返回新数组会改变原数组。
 >
@@ -324,7 +324,7 @@ ES6 新增
  console.log(arr3.copyWithin(3, 4, 6));
  console.log(arr5.copyWithin(3, -7, -5));
 ```
-![ArrayCopyWithin](./images/ArrayCopyWithin.png)
+![ArrayCopyWithin](images/ArrayCopyWithin.png)
 #### 19. find()和findIndex()
 
 > find() 用来找出第一个符合条件的成员
@@ -354,7 +354,7 @@ ES6 新增
  })
  console.log(arr3);
 ```
-![ArrayFind](./images/ArrayFind.png)
+![ArrayFind](images/ArrayFind.png)
 #### 20. entries(), keys()和values
 > keys() 键名遍历
 >
@@ -376,7 +376,7 @@ ES6 新增
     console.log(i)
  }
 ```
-![ArrayEntries](./images/ArrayEntries.png)
+![ArrayEntries](images/ArrayEntries.png)
 
 #### 21. reduce
 arr.reduce(callback, initialValue)
