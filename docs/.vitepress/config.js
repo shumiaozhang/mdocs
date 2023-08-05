@@ -9,6 +9,7 @@ export default {
     // srcDir: 'src',
     // lastUpdated: true, // 更新时间
     cleanUrls: true,
+    base: '/mdocs/',
     lang: 'zh',
     ignoreDeadLinks: true,
     head: [
