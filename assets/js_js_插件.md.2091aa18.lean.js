@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.adbdbaa5.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/js/插件.md","filePath":"js/js/插件.md"}'),p={name:"js/js/插件.md"},o=l("",18),t=[o];function e(D,c,F,r,y,C){return n(),a("div",null,t)}const d=s(p,[["render",e]]);export{A as __pageData,d as default};
