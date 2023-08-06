@@ -1,5 +1,8 @@
 const nav = [
     {
+        text: '关于', link: '/关于/index',
+    },
+    {
         text: 'JavaScript',
         items: [
             { text: 'js', link: '/js/js/' },
