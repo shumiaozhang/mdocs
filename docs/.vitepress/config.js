@@ -14,7 +14,7 @@ export default {
     ignoreDeadLinks: true,
     head: [
         [
-            'link', { rel: 'icon', href: '../public/little-tree.ico', crossorigin: '' }
+            'link', { rel: 'icon', href: '/little-tree.ico', crossorigin: '' }
         ],
     ],
     themeConfig: {
