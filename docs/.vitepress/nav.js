@@ -1,8 +1,5 @@
 const nav = [
     {
-        text: '关于', link: '/关于/index',
-    },
-    {
         text: 'JavaScript',
         items: [
             { text: 'js', link: '/js/js/' },
@@ -10,6 +7,9 @@ const nav = [
             { text: 'node', link: '/js/node/express' },
             { text: 'js高程', link: '/js/js高程/' },
         ]
+    },
+    {
+        text: '关于', link: '/关于/index',
     },
     // {
     //     text: '框架',
