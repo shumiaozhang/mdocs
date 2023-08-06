@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,k as n}from"./chunks/framework.adbdbaa5.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"关于/index.md","filePath":"关于/index.md"}'),o={name:"关于/index.md"},s=n("p",null,"这是关于我的页面",-1),r=[s];function c(d,i,_,p,l,m){return t(),a("div",null,r)}const h=e(o,[["render",c]]);export{x as __pageData,h as default};
