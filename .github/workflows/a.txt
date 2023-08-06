@@ -2,19 +2,11 @@
 #
 name: Deploy VitePress site to Pages
 
-on:
+on: # 监听 master 分支上的 push 事件
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
   # using the `master` branch as the default branch.
   push:
-<<<<<<< HEAD
-<<<<<<< HEAD
     branches: [master]
-=======
-    branches: [main]
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
-=======
-    branches: [main]
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +26,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 构建环境使用 ubuntu
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -49,21 +41,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-<<<<<<< HEAD
-<<<<<<< HEAD
         run: yarn install # or pnpm install / yarn install
       - name: Build with VitePress
         run: yarn run docs:build # or pnpm docs:build / yarn docs:build
-=======
-        run: npm ci # or pnpm install / yarn install
-      - name: Build with VitePress
-        run: npm run docs:build # or pnpm docs:build / yarn docs:build
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
-=======
-        run: npm ci # or pnpm install / yarn install
-      - name: Build with VitePress
-        run: npm run docs:build # or pnpm docs:build / yarn docs:build
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
@@ -72,7 +52,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github1-pages
+      name: .github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
@@ -80,12 +60,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-<<<<<<< HEAD
-<<<<<<< HEAD
         uses: actions/deploy-pages@v2
-=======
-        uses: actions/deploy-pages@v2
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
-=======
-        uses: actions/deploy-pages@v2
->>>>>>> 4898750deea4ba2b7c069087aa4c84dc24b82398
