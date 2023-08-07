@@ -5,7 +5,7 @@ import { sidebar } from './sidebar';
 export default {
     // site-level options
     title: 'Sapling',
-    description: 'Just playing around.',
+    description: '前端、前端分享、js、vitePress、vitepress、node、es6、ES6、js数组、echarts',
     // srcDir: 'src',
     // lastUpdated: true, // 更新时间
     cleanUrls: true,
