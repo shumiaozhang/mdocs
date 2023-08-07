@@ -1,6 +1,6 @@
 const nav = [
     {
-        text: 'VitePress', link: '/vitePress/',
+        text: 'VitePress', link: '/vitepress/',
     },
     {
         text: 'JavaScript',
