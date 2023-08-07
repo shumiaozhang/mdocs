@@ -11,28 +11,28 @@ import {
   watchEffect
 } from "./chunk-V634PGSD.js";
 
-// node_modules/vitepress/dist/client/theme-default/index.js
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+// node_modules/vitePress/dist/client/theme-default/index.js
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/fonts.css";
 
-// node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default3 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default4 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default5 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default6 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default7 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default8 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default9 } from "D:/Project/Github/mdocs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+// node_modules/vitePress/dist/client/theme-default/without-fonts.js
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/vars.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/base.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/utils.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/components/custom-block.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/components/vp-code.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/components/vp-doc.css";
+import "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default3 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default4 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default5 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default6 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default7 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default8 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default9 } from "D:/Project/Github/mdocs/node_modules/vitePress/dist/client/theme-default/components/VPTeamMembers.vue";
 
 // node_modules/@vueuse/shared/index.mjs
 function tryOnScopeDispose(fn) {
@@ -160,22 +160,22 @@ var _TransitionPresets = {
 };
 var TransitionPresets = Object.assign({}, { linear: identity }, _TransitionPresets);
 
-// node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
+// node_modules/vitePress/dist/client/theme-default/composables/sidebar.js
 import { useRoute } from "vitepress";
 
-// node_modules/vitepress/dist/client/theme-default/support/utils.js
+// node_modules/vitePress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
 
-// node_modules/vitepress/dist/client/theme-default/composables/data.js
+// node_modules/vitePress/dist/client/theme-default/composables/data.js
 import { useData as useData$ } from "vitepress";
 var useData = useData$;
 
-// node_modules/vitepress/dist/client/theme-default/support/utils.js
+// node_modules/vitePress/dist/client/theme-default/support/utils.js
 function ensureStartingSlash(path) {
   return /^\//.test(path) ? path : `/${path}`;
 }
 
-// node_modules/vitepress/dist/client/theme-default/support/sidebar.js
+// node_modules/vitePress/dist/client/theme-default/support/sidebar.js
 function getSidebar(sidebar, path) {
   if (Array.isArray(sidebar)) {
     return sidebar;
@@ -208,7 +208,7 @@ function getSidebarGroups(sidebar) {
   return groups;
 }
 
-// node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
+// node_modules/vitePress/dist/client/theme-default/composables/sidebar.js
 function useSidebar() {
   const route = useRoute();
   const { theme: theme2, frontmatter } = useData();
@@ -261,7 +261,7 @@ function useSidebar() {
   };
 }
 
-// node_modules/vitepress/dist/client/theme-default/without-fonts.js
+// node_modules/vitePress/dist/client/theme-default/without-fonts.js
 var theme = {
   Layout,
   enhanceApp: ({ app }) => {

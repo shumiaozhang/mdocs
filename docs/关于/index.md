@@ -6,8 +6,6 @@
 
 ### 项目
 
-    
-
 #### 1. 微信公众号（前端课堂）
 
 ![前端课堂](images/qianduanketang.jpg)

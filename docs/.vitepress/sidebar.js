@@ -1,4 +1,10 @@
 const sidebar = {
+    'vitePress': [
+        {   text: '介绍', link: '/vitePress/', },
+        {   text: '安装', link: '/vitePress/安装',},
+        {   text: '文件结构', link: '/vitePress/文件结构',},
+        {   text: '配置项（config.js）', link: '/vitePress/配置项',},
+    ],
     '/js/js/': [
         {
             text: 'JavaScript',

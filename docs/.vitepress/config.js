@@ -1,4 +1,4 @@
-// .vitepress/config.js
+// .vitePress/config.js
 
 import { nav } from './nav';
 import { sidebar } from './sidebar';

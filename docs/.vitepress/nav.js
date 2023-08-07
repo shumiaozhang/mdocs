@@ -1,5 +1,8 @@
 const nav = [
     {
+        text: 'VitePress', link: '/vitePress/',
+    },
+    {
         text: 'JavaScript',
         items: [
             { text: 'js', link: '/js/js/' },
