@@ -43,6 +43,7 @@ const sidebar = {
             text: 'ES6',
             items: [
                 { text: '导入与导出', link: '/js/ES6/' },
+                { text: '导入与导出', link: '/js/ES6/导入与导出' },
                 { text: 'class', link: '/js/ES6/class' },
             ]
         }
