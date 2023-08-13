@@ -12,6 +12,9 @@ const nav = [
         ]
     },
     {
+        text: 'Excel', link: '/Excel/左上角斜线',
+    },
+    {
         text: '关于', link: '/关于/index',
     },
     // {

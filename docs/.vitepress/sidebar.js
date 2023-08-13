@@ -69,6 +69,14 @@ const sidebar = {
             ]
         }
     ],
+    '/Excel/': [
+        {
+            text: 'Excel基础',
+            items: [
+                { text: '左上角斜线', link: '/Excel/左上角斜线' },
+            ]
+        }
+    ],
     // '/框架/vue3/': [
     //     {
     //         text: 'Vue3',
