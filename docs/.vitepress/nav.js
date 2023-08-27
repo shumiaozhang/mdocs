@@ -6,7 +6,7 @@ const nav = [
         text: 'JavaScript',
         items: [
             { text: 'js', link: '/js/js/' },
-            { text: 'ES6', link: '/js/ES6/' },
+            { text: 'ES6', link: '/js/ES6/导入与导出' },
             { text: 'node', link: '/js/node/express' },
             { text: 'js高程', link: '/js/js高程/' },
         ]
