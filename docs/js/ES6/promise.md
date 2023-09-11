@@ -48,7 +48,7 @@ promise.then((value) => {
 })
 ```
 
-### 1. then方法执行顺序
+### 2. then方法执行顺序
 
 Promise对象建立后会立即执行，**但是`then`方法指定的回调函数会在当前脚本所有同步任务执行完成后才会执行**。通俗讲比如说现在处在一个方法中，then后还有代码，
 比如正常的代码或者异步代码，它执行时会自动在正常代码（同步）后面执行。
@@ -141,7 +141,7 @@ new Promise((resolve, reject) => {
 
 
 
-## Promise.all()
+## 4. Promise.all()
 
 Promise.all方法就是将多个Promise实例包装成一个新的Promise实例。
 
