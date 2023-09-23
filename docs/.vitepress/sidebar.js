@@ -42,6 +42,8 @@ const sidebar = {
         {
             text: 'ES6',
             items: [
+                { text: 'let和const', link: '/js/ES6/let和const' },
+                { text: 'async函数', link: '/js/ES6/async函数' },
                 { text: '导入与导出', link: '/js/ES6/导入与导出' },
                 { text: 'Promise', link: '/js/ES6/promise' },
                 { text: 'class', link: '/js/ES6/class' },
