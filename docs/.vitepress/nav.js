@@ -3,6 +3,9 @@ const nav = [
         text: 'VitePress', link: '/vitePress/',
     },
     {
+        text: 'TypeScript', link: '/ts/',
+    },
+    {
         text: 'JavaScript',
         items: [
             { text: 'js', link: '/js/js/' },

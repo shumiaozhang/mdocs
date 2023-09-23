@@ -10,6 +10,29 @@ const sidebar = {
             ]
         }
     ],
+    '/ts/': [
+        {
+            // text: 'TS介绍',
+            items: [
+                { text: '介绍', link: '/ts/' },
+            ]
+        },
+        {
+            items: [
+                { text: '数组类型', link: '/ts/数组类型' },
+                { text: '元组类型', link: '/ts/元组类型' },
+            ]
+        },
+        {
+            text: '编译',
+            items: [
+                { text: '什么是编译', link: '/ts/什么是编译' },
+                { text: '编译器', link: '/ts/编译器' },
+                { text: 'tsconfig.json', link: '/ts/tsconfig' },
+                { text: 'ts-node模块', link: '/ts/ts-node模块' },
+            ]
+        },
+    ],
     '/js/js/': [
         {
             text: 'JavaScript',
@@ -43,7 +66,7 @@ const sidebar = {
             text: 'ES6',
             items: [
                 { text: 'let和const', link: '/js/ES6/let和const' },
-                { text: 'async函数', link: '/js/ES6/async函数' },
+                { text: 'async', link: '/js/ES6/async函数' },
                 { text: '导入与导出', link: '/js/ES6/导入与导出' },
                 { text: 'Promise', link: '/js/ES6/promise' },
                 { text: 'class', link: '/js/ES6/class' },

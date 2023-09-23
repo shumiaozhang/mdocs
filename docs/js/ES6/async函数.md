@@ -109,7 +109,7 @@ async Function f1 () {
 f1.then(res => console.log(res)); // 出错了  hello word
 ```
 
-## 并发执行代码
+## 5. 并发执行代码
 
 正常情况下当async函数内部都多个await时，会执行完一个异步操作才会执行下一个异步操作，是继发执行，而不是并发执行，这样会很慢。
 
