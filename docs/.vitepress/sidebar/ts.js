@@ -23,7 +23,20 @@ const ts = [
     {
         text: '函数类型',
         items: [
-            { text: '介绍', link: '/ts/' },
+            { text: '介绍', link: '/ts/fun/1. 函数类型-介绍' },
+            { text: 'Function类型', link: '/ts/fun/2. 函数类型-Function类型' },
+            { text: '箭头函数', link: '/ts/fun/3. 函数类型-箭头函数' },
+            { text: '可选参数', link: '/ts/fun/4. 函数类型-可选参数' },
+            { text: '参数默认值', link: '/ts/fun/5. 函数类型-参数默认值' },
+            { text: '参数解构', link: '/ts/fun/6. 函数类型-参数解构' },
+            { text: 'rest剩余参数', link: '/ts/fun/7. 函数类型-rest剩余参数' },
+            { text: 'readonly只读参数', link: '/ts/fun/8. 函数类型-readonly只读参数' },
+            { text: 'void类型', link: '/ts/fun/9. 函数类型-void类型' },
+            { text: 'never类型', link: '/ts/fun/10. 函数类型-never类型' },
+            { text: '局部类型', link: '/ts/fun/11. 函数类型-局部类型' },
+            { text: '高阶函数', link: '/ts/fun/12. 函数类型-高阶函数' },
+            { text: '函数重载', link: '/ts/fun/13. 函数类型-函数重载' },
+            { text: '构造函数', link: '/ts/fun/14. 函数类型-构造函数' },
         ]
     },
 ]
