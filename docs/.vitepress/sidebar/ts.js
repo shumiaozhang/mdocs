@@ -16,6 +16,7 @@ const ts = [
         items: [
             { text: '什么是编译', link: '/ts/什么是编译' },
             { text: '编译器', link: '/ts/编译器' },
+            { text: '常见的编译选项', link: '/ts/常见的编译选项' },
             { text: 'tsconfig.json', link: '/ts/tsconfig' },
             { text: 'ts-node模块', link: '/ts/ts-node模块' },
         ]
@@ -37,6 +38,13 @@ const ts = [
             { text: '高阶函数', link: '/ts/fun/12. 函数类型-高阶函数' },
             { text: '函数重载', link: '/ts/fun/13. 函数类型-函数重载' },
             { text: '构造函数', link: '/ts/fun/14. 函数类型-构造函数' },
+        ]
+    },
+    {
+        // text: '函数类型',
+        items: [
+            { text: 'declare关键字', link: '/ts/declare关键字' },
+            { text: 'd.ts类型声明文件', link: '/ts/d.ts类型声明文件' },
         ]
     },
 ]
