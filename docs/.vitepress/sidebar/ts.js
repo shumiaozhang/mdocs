@@ -43,6 +43,7 @@ const ts = [
     {
         // text: '函数类型',
         items: [
+            { text: 'namespace', link: '/ts/namespace' },
             { text: 'declare关键字', link: '/ts/declare关键字' },
             { text: 'd.ts类型声明文件', link: '/ts/d.ts类型声明文件' },
         ]
