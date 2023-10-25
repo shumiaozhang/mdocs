@@ -24,6 +24,7 @@ const ts = [
     {
         text: '函数类型',
         items: [
+            { text: '函数类型总的', link: '/ts/fun/函数类型' },
             { text: '介绍', link: '/ts/fun/1. 函数类型-介绍' },
             { text: 'Function类型', link: '/ts/fun/2. 函数类型-Function类型' },
             { text: '箭头函数', link: '/ts/fun/3. 函数类型-箭头函数' },
@@ -44,6 +45,8 @@ const ts = [
         // text: '函数类型',
         items: [
             { text: 'namespace', link: '/ts/namespace' },
+            { text: '类型映射', link: '/ts/类型映射' },
+            { text: '映射某些泛型写法', link: '/ts/映射某些泛型写法' },
             { text: 'declare关键字', link: '/ts/declare关键字' },
             { text: 'd.ts类型声明文件', link: '/ts/d.ts类型声明文件' },
         ]
