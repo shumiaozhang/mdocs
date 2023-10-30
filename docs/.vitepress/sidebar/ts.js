@@ -6,6 +6,12 @@ const ts = [
         ]
     },
     {
+        text: '类型系统',
+        items: [
+            { text: '介绍', link: '/ts/类型系统/1. 类型介绍' },
+        ]
+    },
+    {
         items: [
             { text: '数组类型', link: '/ts/数组类型' },
             { text: '元组类型', link: '/ts/元组类型' },
@@ -45,6 +51,9 @@ const ts = [
         // text: '函数类型',
         items: [
             { text: 'namespace', link: '/ts/namespace' },
+            { text: '类型工具', link: '/ts/类型工具' },
+            { text: '类型运算符', link: '/ts/类型运算符' },
+            { text: '数组类型', link: '/ts/数组类型' },
             { text: '类型映射', link: '/ts/类型映射' },
             { text: '映射某些泛型写法', link: '/ts/映射某些泛型写法' },
             { text: 'declare关键字', link: '/ts/declare关键字' },
