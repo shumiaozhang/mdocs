@@ -3,6 +3,7 @@ const ts = [
         // text: 'TS介绍',
         items: [
             { text: '介绍', link: '/ts/' },
+            { text: '知识点', link: '/ts/关于ts的知识点' },
         ]
     },
     {
