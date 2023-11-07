@@ -1,0 +1,1 @@
+import{_ as s,o,c as e,U as a}from"./chunks/framework.adbdbaa5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ts/模块/5. ts模块定位.md","filePath":"ts/模块/5. ts模块定位.md"}'),l={name:"ts/模块/5. ts模块定位.md"},n=a("",42),p=[n];function c(t,r,d,i,D,F){return o(),e("div",null,p)}const m=s(l,[["render",c]]);export{u as __pageData,m as default};

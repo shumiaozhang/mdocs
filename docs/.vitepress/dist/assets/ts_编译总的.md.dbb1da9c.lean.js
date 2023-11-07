@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,U as l}from"./chunks/framework.adbdbaa5.js";const h=JSON.parse('{"title":"什么是编译","description":"","frontmatter":{},"headers":[],"relativePath":"ts/编译总的.md","filePath":"ts/编译总的.md"}'),o={name:"ts/编译总的.md"},n=l("",39),p=[n];function t(c,r,i,d,C,D){return a(),e("div",null,p)}const A=s(o,[["render",t]]);export{h as __pageData,A as default};
