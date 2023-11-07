@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,U as l}from"./chunks/framework.adbdbaa5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/ES6/promise.md","filePath":"js/ES6/promise.md"}'),o={name:"js/ES6/promise.md"},p=l("",85),e=[p];function t(c,r,y,F,D,A){return a(),n("div",null,e)}const h=s(o,[["render",t]]);export{i as __pageData,h as default};

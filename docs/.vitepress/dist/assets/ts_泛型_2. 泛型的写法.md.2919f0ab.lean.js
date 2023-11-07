@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,U as l}from"./chunks/framework.adbdbaa5.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ts/泛型/2. 泛型的写法.md","filePath":"ts/泛型/2. 泛型的写法.md"}'),p={name:"ts/泛型/2. 泛型的写法.md"},o=l("",20),e=[o];function t(c,r,y,F,D,C){return a(),n("div",null,e)}const B=s(p,[["render",t]]);export{A as __pageData,B as default};

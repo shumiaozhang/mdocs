@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.adbdbaa5.js";const C=JSON.parse('{"title":"菜单以及权限","description":"","frontmatter":{},"headers":[],"relativePath":"js/js/菜单权限.md","filePath":"js/js/菜单权限.md"}'),p={name:"js/js/菜单权限.md"},o=l("",23),t=[o];function e(F,c,r,y,D,A){return n(),a("div",null,t)}const u=s(p,[["render",e]]);export{C as __pageData,u as default};
