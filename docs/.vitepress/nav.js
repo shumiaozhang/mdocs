@@ -6,6 +6,9 @@ const nav = [
         text: 'Vue3', link: '/vue3/sfc/index',
     },
     {
+        text: 'React', link: '/react/jsx',
+    },
+    {
         text: 'TypeScript', link: '/ts/',
     },
     {
