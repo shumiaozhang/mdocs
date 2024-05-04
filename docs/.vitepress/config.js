@@ -7,7 +7,7 @@ export default {
     title: 'Sapling',
     description: '前端、前端分享、js、ts、vitePress、vitepress、node、es6、ES6、js数组、echarts',
     // srcDir: 'src',
-    lastUpdated: true, // 更新时间
+    // lastUpdated: true, // 更新时间
     cleanUrls: true,
     // base: '/mdocs/',
     lang: 'zh',
