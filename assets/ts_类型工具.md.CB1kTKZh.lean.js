@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as h}from"./chunks/framework.DwDoyBw8.js";const F=JSON.parse('{"title":"类型工具","description":"","frontmatter":{},"headers":[],"relativePath":"ts/类型工具.md","filePath":"ts/类型工具.md"}'),t={name:"ts/类型工具.md"},n=h("",185),p=[n];function k(l,e,d,r,g,y){return a(),i("div",null,p)}const c=s(t,[["render",k]]);export{F as __pageData,c as default};

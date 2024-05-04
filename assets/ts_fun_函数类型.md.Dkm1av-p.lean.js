@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.DwDoyBw8.js";const F=JSON.parse('{"title":"函数类型","description":"","frontmatter":{},"headers":[],"relativePath":"ts/fun/函数类型.md","filePath":"ts/fun/函数类型.md"}'),h={name:"ts/fun/函数类型.md"},p=n("",126),k=[p];function t(l,e,E,r,d,g){return a(),i("div",null,k)}const c=s(h,[["render",t]]);export{F as __pageData,c as default};

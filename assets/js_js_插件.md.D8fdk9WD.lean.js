@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.DwDoyBw8.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/js/插件.md","filePath":"js/js/插件.md"}'),t={name:"js/js/插件.md"},l=n("",18),h=[l];function k(p,e,E,d,r,g){return a(),i("div",null,h)}const c=s(t,[["render",k]]);export{F as __pageData,c as default};

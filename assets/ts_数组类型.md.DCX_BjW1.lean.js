@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as h}from"./chunks/framework.DwDoyBw8.js";const o=JSON.parse('{"title":"数组类型","description":"","frontmatter":{},"headers":[],"relativePath":"ts/数组类型.md","filePath":"ts/数组类型.md"}'),t={name:"ts/数组类型.md"},n=h("",51),p=[n];function l(k,e,r,d,E,g){return a(),i("div",null,p)}const c=s(t,[["render",l]]);export{o as __pageData,c as default};
