@@ -13,7 +13,7 @@ const sidebar = {
             ]
         }
     ],
-    '/ts/': ts,
+    // '/ts/': ts,
     '/vue3/': vue3,
     '/react/': react,
     '/js/js/': [

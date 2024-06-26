@@ -8,9 +8,9 @@ const nav = [
     {
         text: 'React', link: '/react/jsx',
     },
-    {
-        text: 'TypeScript', link: '/ts/',
-    },
+    // {
+        // text: 'TypeScript', link: '/ts/',
+    // },
     {
         text: 'JavaScript',
         items: [
