@@ -31,5 +31,8 @@ export default {
             label: "目录", // 右侧大纲标题文本配置
         },
         returnToTopLabel: '返回顶部',
+        search: {
+            provider: 'local',
+        },
     },
 }

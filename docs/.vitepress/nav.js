@@ -3,6 +3,12 @@ const nav = [
         text: 'VitePress', link: '/vitePress/',
     },
     {
+        text: 'Question',
+        items: [
+            { text: 'JS', link: '/question/js/' }
+        ]
+    },
+    {
         text: 'Vue3', link: '/vue3/sfc/index',
     },
     {
