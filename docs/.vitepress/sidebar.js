@@ -1,7 +1,10 @@
 import { ts } from "./sidebar/ts";
 import { vue3 } from "./sidebar/vue3";
 import { react } from "./sidebar/react";
-import { questionJS } from "./sidebar/questionJS";
+import questionJS from "./sidebar/questionJS";
+import questionGit from "./sidebar/questionGit";
+
+
 const sidebar = {
     'vitePress': [
         {
@@ -15,6 +18,7 @@ const sidebar = {
         }
     ],
     '/question/js/': questionJS,
+    '/question/git/': questionGit,
     // '/ts/': ts,
     '/vue3/': vue3,
     '/react/': react,

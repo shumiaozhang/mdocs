@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs --open",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:preview1": "vitepress preview public",
@@ -12,6 +13,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vitepress": "^1.1.0"
+    "pagefind": "^1.1.1",
+    "vitepress": "^1.1.0",
+    "vitepress-plugin-pagefind": "^0.4.10"
   }
 }

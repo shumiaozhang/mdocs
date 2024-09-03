@@ -2,6 +2,8 @@
 
 import { nav } from './nav';
 import { sidebar } from './sidebar';
+
+
 export default {
     // site-level options
     title: 'Sapling',
@@ -10,7 +12,7 @@ export default {
     // lastUpdated: true, // 更新时间
     cleanUrls: true,
     // base: '/mdocs/',
-    lang: 'zh',
+    lang: 'zh-cn',
     ignoreDeadLinks: true,
     head: [
         [
@@ -34,5 +36,5 @@ export default {
         search: {
             provider: 'local',
         },
-    },
+    }
 }
