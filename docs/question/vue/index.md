@@ -12,6 +12,7 @@ Uncaught (in promise) TypeError: parentComponent.ctx.deactivate is not a functio
 
 原因：
 
+
 通常是因为 **组件的渲染条件切换导致上下文丢失**。
 
 使用了v-if，报的错
