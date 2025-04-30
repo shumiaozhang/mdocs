@@ -6,7 +6,8 @@ const nav = [
         text: 'Question',
         items: [
             { text: 'JS', link: '/question/js/' },
-            { text: 'Git', link: '/question/git/' }
+            { text: 'Git', link: '/question/git/' },
+            { text: 'Vue', link: '/question/vue/' }
         ]
     },
     {

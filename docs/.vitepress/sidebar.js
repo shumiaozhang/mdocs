@@ -1,8 +1,9 @@
-import { ts } from "./sidebar/ts";
+ import { ts } from "./sidebar/ts";
 import { vue3 } from "./sidebar/vue3";
 import { react } from "./sidebar/react";
 import questionJS from "./sidebar/questionJS";
 import questionGit from "./sidebar/questionGit";
+import questionVue from "./sidebar/question/vue";
 
 
 const sidebar = {
@@ -19,6 +20,7 @@ const sidebar = {
     ],
     '/question/js/': questionJS,
     '/question/git/': questionGit,
+    '/question/vue/': questionVue,
     // '/ts/': ts,
     '/vue3/': vue3,
     '/react/': react,
