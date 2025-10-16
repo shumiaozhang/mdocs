@@ -33,7 +33,7 @@
 </style> 
 
 <div class="beiAn" id="beiAn">
-    <img src="/images/beian.png" alt="" style="text-align: center;">
-    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13058102000327">冀公网安备 13058102000327号</a>
-    <a href="https://www.beian.miit.gov.cn" target="_blank">冀ICP备20013503号-2</a>
+    <img src="/images/beian.png" alt="" style="text-align: center; display: none;">
+    <a target="_blank" style="display: none;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13058102000327">冀公网安备 号</a>
+    <a href="https://www.beian.miit.gov.cn" target="_blank">冀ICP备20013503号-7</a>
 </div>
