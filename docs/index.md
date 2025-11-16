@@ -11,6 +11,8 @@
         line-height: 40px;
         font-size: 14px;
         display: flex;
+        right: 0px;
+        left: 0px;
         justify-content: center;
         align-items: center;
     }
@@ -19,8 +21,8 @@
         cursor: pointer;
         text-decoration: none;
     }
-    .beiAn a:last-child {
-        margin-left: 10px;
+    .beiAn a:first-child {
+        margin-right: 10px;
     }
     .beiAn a:hover{
         color: #000;
@@ -33,7 +35,7 @@
 </style> 
 
 <div class="beiAn" id="beiAn">
-    <img src="/images/beian.png" alt="" style="text-align: center; display: none;">
-    <a target="_blank" style="display: none;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13058102000327">冀公网安备 号</a>
     <a href="https://www.beian.miit.gov.cn" target="_blank">冀ICP备20013503号-7</a>
+    <img src="/images/beian.png" alt="" style="text-align: center;">
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13058102006856">冀公网安备13058102006856号</a>
 </div>
