@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.E4YCCYO0.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/js/兼容性.md","filePath":"js/js/兼容性.md"}'),t={name:"js/js/兼容性.md"},e=n("",8),l=[e];function h(p,k,E,r,d,g){return a(),i("div",null,l)}const o=s(t,[["render",h]]);export{c as __pageData,o as default};

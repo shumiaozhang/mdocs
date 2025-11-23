@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a4 as h}from"./chunks/framework.E4YCCYO0.js";const F=JSON.parse('{"title":"关于时间常见例子","description":"","frontmatter":{},"headers":[],"relativePath":"js/js/time.md","filePath":"js/js/time.md"}'),k={name:"js/js/time.md"},n=h("",54),t=[n];function l(p,e,E,r,d,g){return a(),i("div",null,t)}const C=s(k,[["render",l]]);export{F as __pageData,C as default};

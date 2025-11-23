@@ -1,4 +1,4 @@
-const nav = [
+export const nav = [
     {
         text: 'VitePress', link: '/vitePress/',
     },
@@ -19,6 +19,12 @@ const nav = [
     // {
         // text: 'TypeScript', link: '/ts/',
     // },
+    {
+        text: 'CSS',
+        items: [
+            { text: 'flex', link: '/css/flex/introduction' },
+        ]
+    },
     {
         text: 'JavaScript',
         items: [
@@ -65,6 +71,3 @@ const nav = [
     // },
 ];
 
-export {
-    nav,
-}

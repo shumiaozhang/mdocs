@@ -4,6 +4,7 @@ import { react } from "./sidebar/react";
 import questionJS from "./sidebar/questionJS";
 import questionGit from "./sidebar/questionGit";
 import questionVue from "./sidebar/question/vue";
+import { cssSidebar } from "./sidebar/css";
 
 
 const sidebar = {
@@ -24,6 +25,7 @@ const sidebar = {
     // '/ts/': ts,
     '/vue3/': vue3,
     '/react/': react,
+    '/css/': cssSidebar,
     '/js/js/': [
         {
             text: 'JavaScript',
