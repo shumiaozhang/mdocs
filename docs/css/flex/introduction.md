@@ -25,20 +25,20 @@ flex-wrap 属性为 nowrap。
 
 如果选择了 row 或者 row-reverse，主轴将沿着行向延伸。
 
-![flex-direction-row](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/flex-direction-row.svg)
+![flex-direction-row](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/flex-direction-row.svg)
 
 选择 column 或者 column-reverse 时，主轴会沿着页面的上下方向延伸——也就是块向。
 
-![flex-direction-column](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/flex-direction-column.svg)
+![flex-direction-column](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/flex-direction-column.svg)
 
 #### 交叉轴
 垂直于主轴的轴，交叉轴的方向取决于主轴的方向
 
 如果flex-direction（主轴）设成了 row 或者 row-reverse 的话，交叉轴的方向就是沿着上下方向延伸的。
 
-![flex-direction-row](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/jiaochazhou-column-row.svg)
+![flex-direction-row](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/jiaochazhou-column-row.svg)
 如果主轴方向设成了 column 或者 column-reverse，交叉轴就是水平方向。
-![flex-direction-column](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/jiaochazhou-column.svg)
+![flex-direction-column](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/jiaochazhou-column.svg)
 
 #### 起始线
 
@@ -199,7 +199,7 @@ center：居中
 **例如：**
 当一个弹性容器有正可用空间时，它就有更多的空间用于在容器内显示弹性元素。比如说，如果我们有 500px 宽的容器，flex-direction 属性值为 row，三个 100px 宽的弹性元素，那么我们还有 200px 的正可用空间，如果我们想要填充整个容器，则可将其分配到元素中。
 
-![正可用空间](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/available-space.png)
+![正可用空间](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/available-space.png)
 
 **负向空间**
 
@@ -212,6 +212,6 @@ center：居中
 
 比如我们有一个像上面那样的 500px 宽的容器，但是三个弹性元素每个都为 200px 宽，那我们就一共需要 600px 宽，因此就有了 100px 的负可用空间。这可以从弹性元素中删除以使其能适应容器。
 
-![负可用空间](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/CSS/Flex/negative-available-space.png)
+![负可用空间](https://rbr.oss-cn-beijing.aliyuncs.com/cloud_drive/cdn/css/flex/negative-available-space.png)
 
 
